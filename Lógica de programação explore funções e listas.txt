@@ -1,0 +1,10 @@
+let titulo = document.querYSelector ("") para incluir titulo
+titulo.innerHTML = ""
+
+let paragrafo = document.querySelector("")
+paragrafo.innerHTML = ""
+
+criar função: function   é um trecho de códigoque executa ou tem alguma responssabilidade
+function nome() {
+    
+}
