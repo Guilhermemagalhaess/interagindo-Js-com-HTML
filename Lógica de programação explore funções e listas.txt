@@ -8,3 +8,6 @@ criar função: function   é um trecho de códigoque executa ou tem alguma resp
 function nome() {
     
 }
+
+
+OBS: Boa prática evitar repetição de códigos
