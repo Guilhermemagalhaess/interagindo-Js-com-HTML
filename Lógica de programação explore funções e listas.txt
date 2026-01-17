@@ -34,3 +34,49 @@ Eliminando linhas...
 
 return para uma variável retornar a alguma função.
 
+
+
+Atribuir funções para as variáveis com return
+
+let numeroSecreto = gerarNumeroAleatorio();
+
+function exibirTextoNaTela(tag, texto) {
+    let campo = document.querySelector(tag);
+    campo.innerHTML = texto;
+}
+
+exibirTextoNaTela ("h1", "Hora do desafio");
+exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+
+function verificarChute() {
+    console.log(numeroSecreto);
+    }
+
+function gerarNumeroAleatorio(params) {
+  return parseInt(Math.random() * 10 + 1);
+}
+
+
+
+
+
+Tipo booleano = verdadeiro ou false
+
+let numeroSecreto = gerarNumeroAleatorio();
+
+function exibirTextoNaTela(tag, texto) {
+    let campo = document.querySelector(tag);
+    campo.innerHTML = texto;
+}
+
+exibirTextoNaTela ("h1", "Hora do desafio");
+exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+
+function verificarChute() {
+    (((((((((((let chute = document.querySelector ("input").value;))))))))))))))
+    console.log(chute == numeroSecreto);
+    }
+
+function gerarNumeroAleatorio(params) {
+  return parseInt(Math.random() * 10 + 1);
+}
